@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NovaSearch: a lightweight search engine powered by PHP and MySQL.">
+  <title>NovaSearch — Find something amazing</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header><a class="brand small" href="./" aria-label="NovaSearch homepage"><span class="symbol">✦</span> Nova<span>Search</span></a><span class="header-note">Explore the web, simply.</span></header>
+  <main>
+    <div class="hero" id="hero"><div class="orb">✦</div><h1>Where curiosity <em>begins.</em></h1><p>Search a handpicked collection of the best places to learn, build and discover.</p></div>
+    <form id="searchForm" role="search" autocomplete="off"><div class="searchbox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="10.8" cy="10.8" r="7"/><path d="m16 16 5 5"/></svg><input id="query" name="q" type="search" placeholder="Search websites, topics, technologies..." maxlength="100" aria-label="Search websites"><kbd>/</kbd><button type="submit">Search →</button></div></form>
+    <div class="chips" id="chips"><span>Try searching</span><button data-query="Artificial Intelligence">Artificial Intelligence</button><button data-query="Python">Python</button><button data-query="Design">Design</button><button data-query="Learn coding">Learn coding</button></div>
+    <section class="results" id="results" aria-live="polite" hidden><div class="results-head"><p id="summary"></p><span>Powered by PHP + MySQL</span></div><div id="resultList"></div></section>
+    <div class="intro" id="intro"><div><strong>✧ Curated discovery</strong><p>Useful websites, no noise.</p></div><div><strong>⚡ Fast results</strong><p>Ranked by keyword relevance.</p></div><div><strong>◈ Built from scratch</strong><p>HTML, CSS, JS, PHP and MySQL.</p></div></div>
+  </main>
+  <footer><span>© 2026 NovaSearch · Built for discovery</span><span>Small search engine, big ideas ✦</span></footer>
+  <script src="assets/app.js" defer></script>
+</body></html>
